@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 0.0652vw;
+}
+
+body{
+}
+.header{
+    font-family: "Lora";
+    background-color: #4A7A74B2;
+}
+.title{
+    max-width: 100%;
+    margin-top: 12rem;
+width: 1444rem;
+    height: 128rem;
+    text-transform: uppercase;
+   
+}
+
+
+.container{
+    width:1444rem;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+ 
+}
+.left__img{
+  
+    padding: 33rem 35rem 25rem 39em;
+    width: 669rem;
+    height: 502rem;
+    position: relative;
+}
+.right{
+   
+   gap: 40rem;
+   line-height: 35rem;
+margin: 33rem 0;
+width: 645rem;
+height: 471rem;
+font-size: 21rem;
+}
+.p{
+
+}
+
+
+
+
+
+
+.icon{
+    align-items: center;
+    grid-template-rows: repeat(4,1fr);
+    color: wheat;
+    font-size:33rem;
+    width: 276rem;
+    height: 67rem;
+    background-color: #4A7A74B2;
+    text-transform: uppercase;
+    margin:  300rem 76rem 63rem 300rem;
+    }
+.icon__title{
+display: grid;
+align-items: center;
+grid-template-columns: 1fr 1fr;
+padding: 15rem 20rem;
+}
+
+.icon__img{
+width: 58rem;
+height: 27px;
+}
+.icon__content{
+   padding-left: 25rem;
+   max-width: 57rem;
+}
+.icon__back{
+    width: 121rem;
+    height: 37rem;
+}
+
+
+
+
+
+.line{
+    display: grid;
+    grid-template-columns: repeat(4,1fr );
+   width: 161rem;
+   margin-left: 272rem;
+max-width: 161rem;
+ 
+   
+   
+}
+.line__content{
+    width: 43rem;
+    height: 2rem;
+    background-color: #4A7A74B2;
+   margin-left: 10rem;
+}
+.a{
+   
+    font-size: 50rem;
+    color: white;
+   padding: 40rem 40rem 40rem 40rem;
+
+   
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:999px) {
+    .content{
+    grid-template-columns: 1fr;
+}
+
+.right{
+    width: 100%;
+    font-size: 30rem;
+    margin-left: 40rem;
+    margin: 33rem 40rem;
+    max-width: 1500rem;
+    
+}
+.left__img{
+    width: 1500rem;
+    height: 1100rem;
+}
+.line{
+    margin-left: 650rem;
+}
+.icon{
+    margin:  300rem 76rem 63rem 1150rem;
+}
+header{
+    max-width: 100%;
+}
+
+}
+
